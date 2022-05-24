@@ -45,6 +45,7 @@ def urlError(error):
 # 10. Add Custom Error Pages [OK]
 # 11. Membuat SSH KEY public maupun private []
 # 12. Inisialisasi Public SSH KEY -> GitHUB []
-# 13. PUSH, File Project -> GitHUB {TIDAK PERLU UPLOAD .bin dan lib, buat file .gitignore}
+# 13. Membuat File .gitignore untuk mengabaikan file yang akan di commit
+# 14. Membuat Repository dan melakukan PUSH []
 
 #https://www.youtube.com/watch?v=4yaG-jFfePc&list=PLCC34OHNcOtolz2Vd9ZSeSXWc8Bq23yEz&index=2
