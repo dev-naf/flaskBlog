@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebPage</title>
+</head>
+<body>
+    <h1>Hello Dunia</h1>
+    <p>Aku sudah berhasi inisialisasi FLASK dengan Development Environtment</p>
+    <p>Yang membuat halaman ini Adalah = {{ name | capitalize }}</p>
+
+    <!-- Jinja Filter, untuk menjalankan Tags -->
+    <p>{{ stuff | safe}}</p>
+
+    <!-- Jinja Filter , untuk mengabaikan semua tags -->
+    <p>{{ stuff | striptags}}</p>
+
+    <!-- Default Jinja, Tidak akan menjalankan tags lain -->
+    <p>{{ stuff }}</p>
+
+    <!-- Show List in Jinja -->
+    <p>{{ favCar }}</p>
+
+    <!-- For loop in Jinja Statements -->
+    {% for car in favCar %}
+       <p>{{ car }}</p>
+       {% if car==3000 %}
+       <p>{{ car +300}}</p>
+       {% endif %}
+    {% endfor %}
+
+
+
+</body>
+</html>
