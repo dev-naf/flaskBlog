@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>WebPage</title>
-</head>
-<body>
+{% extends 'layout.html' %}
+
+{%block head%}
+HOME | FlaskBLOG
+{%endblock%}
+
+{% block content %}
     <h1>Hello Dunia</h1>
     <p>Aku sudah berhasi inisialisasi FLASK dengan Development Environtment</p>
     <p>Yang membuat halaman ini Adalah = {{ name | capitalize }}</p>
@@ -30,6 +30,4 @@
     {% endfor %}
 
 
-
-</body>
-</html>
+{% endblock %}
